@@ -84,3 +84,80 @@ body[data-role="admin"] .device-desktop .admin-kpis {
 @media(max-width:980px){.navbar .nav-links{display:none;position:absolute;right:18px;left:18px;top:calc(100% - 1px);padding:16px;background:#fff;border:1px solid var(--edge);border-radius:0 0 14px 14px;box-shadow:0 22px 28px #183d4a1c;flex-direction:column;align-items:stretch;gap:3px}.navbar .nav-links.nav-open{display:flex}.navbar .nav-links a{font-size:14px;padding:12px 10px}.navbar .nav-links .btn{justify-content:center;margin-top:7px;color:#fff}.nav-toggle{display:flex}.footer-layout{grid-template-columns:1.5fr 1fr 1fr;gap:20px!important}.contact-layout{gap:30px}}
 @media(max-width:750px){.page-hero{padding-top:50px;padding-bottom:47px}.page-hero>p{font-size:14px}.page-hero+.section{padding-top:46px}.hero h1{font-size:clamp(39px,10vw,60px)}.feature-matrix{grid-template-columns:1fr}.footer-layout{grid-template-columns:1fr 1fr;gap:24px!important}.footer-intro{grid-column:1/-1}.footer-bottom{flex-direction:column;align-items:flex-start}.workflow-grid{grid-template-columns:1fr}.workflow-grid p{min-height:0}.features-row{grid-template-columns:28px minmax(0,1fr);gap:12px;padding:20px}.features-row>a{grid-column:2;justify-self:start}.responsibility-grid,.contact-layout{grid-template-columns:1fr}.contact-fields{grid-template-columns:1fr;gap:0}.tour-head .role-links{justify-content:flex-start}.contact-panel{padding:23px}.closing-cta{padding-bottom:49px}}
 @media(max-width:420px){.footer-layout{grid-template-columns:1fr}.cards-five .role-card{min-height:247px}.page-hero h1{font-size:clamp(38px,10vw,50px)}}
+
+
+/* Pricing page: shares the existing site design system */
+.pricing-hero{padding-bottom:48px}.pricing-hero>p{max-width:820px}.price-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-bottom:70px}.rate-card{border:1px solid var(--edge);border-radius:20px;padding:29px;background:#fff;box-shadow:0 8px 22px #17334806;min-width:0}.rate-card-emphasis{background:linear-gradient(135deg,#174967,#22577a);border-color:#22577a;color:#fff}.rate-icon{width:49px;height:49px;display:grid;place-items:center;background:#e9f6f1;border-radius:14px;font-size:24px}.rate-eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:23px 0 13px;color:#6d8592}.rate-amount{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 11px}.rate-amount b{font-size:clamp(26px,2.6vw,36px);letter-spacing:-.04em;white-space:nowrap}.rate-amount span{font-size:12px;color:#77909b}.rate-card>p:last-child{margin-top:12px;font-size:12px;color:#8295a2}.rate-card-emphasis .rate-eyebrow,.rate-card-emphasis .rate-amount span,.rate-card-emphasis>p:last-child{color:#d4e7ed}.rate-card-emphasis .rate-icon{background:#e5f7f0}
+.price-calculator{display:grid;grid-template-columns:1.04fr .96fr;gap:0;border-radius:24px;background:#fff;border:1px solid var(--edge);overflow:hidden;box-shadow:0 16px 50px #19405510}.calculator-inputs{padding:40px 43px}.calculator-topline{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#8aa2ab;font-size:10px;font-weight:800;letter-spacing:.12em}.calculator-topline span:last-child{color:#288f6e}.calculator-inputs h3{font-size:25px;margin-top:22px}.calculator-inputs>p:not(.calc-disclaimer){font-size:13px;color:#8595a1;margin-top:9px;max-width:420px}.calc-field{margin-top:25px}.calc-field label{display:block;font-size:13px;font-weight:800;margin-bottom:9px}.calc-field small{display:block;color:#8296a4;font-size:11px;margin-top:8px}.calc-input-wrap{position:relative}.calc-input-wrap span{position:absolute;top:50%;left:17px;transform:translateY(-50%);font-size:20px;pointer-events:none}.calc-input-wrap input{width:100%;border:1px solid #d7e5e8;background:#fcfefe;border-radius:12px;padding:14px 18px 14px 51px;color:var(--ink);font-family:inherit;font-size:19px;font-weight:700;line-height:1.35;outline:none;appearance:textfield}.calc-input-wrap input:focus{border-color:#53b69f;box-shadow:0 0 0 3px #dcf5eb}.calc-presets{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:25px}.calc-presets>span{width:100%;font-size:11px;color:#7c91a0;font-weight:700;margin-bottom:3px}.calc-preset{border-radius:30px;border:1px solid #dbe8ed;background:#f6fafb;padding:9px 13px;color:#557385;font-size:11px;font-weight:700}.calc-preset:hover,.calc-preset:focus-visible{border-color:#69b6a6;background:#effbf4;color:#155b4b}.calc-disclaimer{font-size:11px;color:#8196a4;margin-top:24px;line-height:1.75}
+.calculator-output{background:linear-gradient(150deg,#164561,#10334a);color:white;padding:43px 42px;display:flex;flex-direction:column;justify-content:center;min-width:0}.calc-output-tag{color:#9ce4c0;font-size:11px;font-weight:800;letter-spacing:.13em}.calc-total{font-size:clamp(38px,4.2vw,56px);font-weight:800;letter-spacing:-.065em;margin-top:19px;overflow-wrap:anywhere}.calc-caption{font-size:12px;color:#b4cfd9;margin-top:0}.calc-breakdown{margin-top:31px;display:grid;gap:14px}.calc-breakdown>div{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:#cadbe4}.calc-breakdown strong{font-size:13px;color:#fff;white-space:nowrap}.calc-breakdown .calc-min{color:#b8eacb}.calc-min strong{color:#b8eacb}.calc-divider{height:1px;background:#ffffff25;margin:26px 0}.calc-split-heading{font-size:11px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:#d4e7ee}.calc-payments{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:12px}.calc-payments>div{border:1px solid #ffffff24;padding:15px;border-radius:12px}.calc-payments small{display:block;font-size:10px;color:#b4d0dd;line-height:1.5}.calc-payments small span{color:#b2eccb}.calc-payments strong{display:block;font-size:20px;letter-spacing:-.03em;margin-top:10px}.calculator-output .calc-cta{background:var(--mint);color:#10394e;margin-top:31px}.calculator-output .calc-cta:hover{background:#87dfb7}.price-calculation-note{margin-top:17px;font-size:12px;color:#78909e;line-height:1.7}.price-calculation-note strong{color:var(--ink)}.payment-section{background:#fff}.payment-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.payment-step{border:1px solid var(--edge);background:#f9fbfc;border-radius:19px;padding:27px}.pay-number{font-size:10px;color:#338b6b;letter-spacing:.1em;font-weight:850}.payment-icon{width:45px;height:45px;background:#e0f5ea;border-radius:12px;display:grid;place-items:center;margin:24px 0 15px;font-size:21px;font-weight:700;color:#237758}.payment-step h3{font-size:20px}.payment-step p{font-size:12px;color:#7a8c98;margin-top:12px}.payment-step p strong{color:#294b5a}.price-includes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:28px}.price-includes a{background:#fff;border:1px solid var(--edge);border-radius:15px;padding:20px;display:flex;align-items:start;flex-direction:column;gap:12px;font-size:18px;min-width:0;transition:transform .2s}.price-includes a:hover{transform:translateY(-3px);box-shadow:0 10px 23px #153b4a0d}.price-includes span{font-weight:800;font-size:13px;color:var(--ink)}.price-includes b{font-size:11px;color:var(--navy);margin-top:auto}.scope-note a{color:var(--navy);font-weight:700;text-decoration:underline}
+@media(max-width:1100px){.price-includes{grid-template-columns:repeat(3,minmax(0,1fr))}.rate-amount b{font-size:27px}}
+@media(max-width:800px){.price-summary-grid{grid-template-columns:1fr;gap:11px}.price-calculator{grid-template-columns:1fr}.calculator-inputs,.calculator-output{padding:30px}.payment-steps{grid-template-columns:1fr}.rate-card{padding:23px}.rate-eyebrow{margin-top:17px}.price-summary-grid{padding-bottom:40px}}
+@media(max-width:610px){.price-includes{grid-template-columns:repeat(2,minmax(0,1fr))}.calc-total{font-size:44px}.calculator-inputs,.calculator-output{padding:25px}.calc-payments strong{font-size:17px}.calc-payments small{font-size:9px}}
+@media(max-width:410px){.price-includes{grid-template-columns:1fr}.calc-payments{grid-template-columns:1fr}.calc-total{font-size:37px}.calculator-inputs,.calculator-output{padding:20px}}
+
+.home-pricing-section{padding:40px 0 60px}.home-price-strip{display:flex;align-items:center;justify-content:space-between;gap:35px;border:1px solid #d7e9e2;background:#f3faf6;border-radius:20px;padding:34px 42px}.home-price-strip h2{font-size:31px;margin-top:12px}.home-price-strip p{margin-top:9px;font-size:14px;color:#486472}.home-price-strip span{display:block;font-size:11px;color:#718b98;margin-top:13px;line-height:1.6}.home-pricing-actions{display:flex;flex-direction:column;gap:13px;align-items:center;flex-shrink:0}.home-pricing-actions .btn{min-width:197px}.how-payment-note{border:1px solid #dbe8eb;border-radius:18px;background:#eff8f5;margin-top:28px;margin-bottom:30px;padding-top:25px;padding-bottom:25px;display:flex;align-items:center;justify-content:space-between;gap:20px}.how-payment-note strong{font-size:16px}.how-payment-note p{font-size:12px;color:#647f8d;margin-top:8px}.how-payment-note>a{font-size:12px;font-weight:800;color:var(--navy);white-space:nowrap}.contact-price-link{font-size:12px;color:#7d90a0;margin-top:12px}.contact-price-link a{font-weight:800;color:var(--navy)}
+@media(max-width:780px){.home-price-strip{flex-direction:column;align-items:flex-start;padding:26px}.home-pricing-actions{align-items:flex-start}.home-price-strip h2{font-size:25px}.how-payment-note{flex-direction:column;align-items:flex-start}}
+
+/* E School brand, trusted policy pages (V6) */
+.brand-mark{height:36px;width:36px;object-fit:contain;border-radius:10px;display:block;flex-shrink:0}
+.brand-name{font-size:20px;font-weight:800;letter-spacing:-.04em;white-space:nowrap}
+.footer-layout{grid-template-columns:1.9fr 1fr 1fr 1fr!important}
+.trust-mini{padding-top:21px;padding-bottom:25px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.trust-mini-copy{display:flex;align-items:flex-start;gap:15px;max-width:720px}
+.trust-mini-copy strong{font-size:14px;color:var(--ink)}
+.trust-mini-copy p{font-size:12px;color:var(--muted);margin-top:5px}
+.trust-symbol{display:grid;place-items:center;width:39px;height:39px;flex-shrink:0;border-radius:12px;background:#e3f8ec;color:#24785d;font-size:20px}
+.trust-mini-links{display:flex;gap:19px;flex-wrap:wrap;justify-content:flex-end}
+.trust-mini-links a,.price-policy-note a,.contact-privacy-note a,.how-payment-note a{font-weight:750;color:var(--navy);text-decoration:underline;text-decoration-color:#89b2c4;text-underline-offset:3px}
+.trust-mini-links a{font-size:12px}
+.price-policy-note{max-width:860px;margin:13px 0 0;font-size:12px;color:var(--muted)}
+.contact-privacy-note{font-size:11px;color:var(--muted);line-height:1.7;margin-top:15px}
+.legal-hero{padding-bottom:59px}
+.legal-hero h1{font-size:clamp(40px,5vw,70px)}
+.legal-updated{font-size:11px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap;margin-top:7px}
+.legal-section{padding-top:60px;padding-bottom:86px}
+.legal-layout{display:grid;grid-template-columns:minmax(210px,265px) minmax(0,800px);align-items:start;gap:clamp(24px,5vw,85px)}
+.legal-side{position:sticky;top:32px;border:1px solid var(--edge);background:#f8fbfc;border-radius:18px;padding:25px}
+.legal-side>span{font-size:10px;letter-spacing:.14em;font-weight:850;color:var(--navy)}
+.legal-side>p{margin:12px 0 23px;font-size:14px;font-weight:750;line-height:1.5}
+.legal-side nav{display:grid;gap:1px;padding-top:13px;border-top:1px solid var(--edge)}
+.legal-side nav a{font-size:12px;color:var(--navy);padding:9px 0;font-weight:700}
+.legal-side nav a:hover{text-decoration:underline}
+.legal-help{padding-top:19px;border-top:1px solid var(--edge);margin-top:20px;font-size:11px;line-height:1.7;color:var(--muted)}
+.legal-help a{color:var(--navy);font-weight:750}
+.legal-content{max-width:800px;min-width:0}
+.legal-content .legal-intro{padding:24px 28px 25px;background:#edf7f3;border:1px solid #d9eee4;border-radius:18px;margin-bottom:33px}
+.legal-intro>span{font-size:10px;font-weight:800;letter-spacing:.14em;color:#26865b;text-transform:uppercase}
+.legal-content h2{font-size:22px;line-height:1.28;color:var(--ink);margin:0 0 14px;font-weight:790}
+.legal-intro h2{font-size:25px;margin-top:9px}
+.legal-content p{font-size:13px;color:#586f7d;line-height:1.9;margin-top:10px}
+.legal-content>section{border-bottom:1px solid var(--edge);padding:25px 0 30px;scroll-margin-top:25px}
+.legal-content>section:first-of-type{padding-top:8px}
+.legal-content>section:last-of-type{border-bottom:0}
+.legal-content a{color:var(--navy);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.legal-content strong{color:var(--ink)}
+.legal-scenario{background:#f8fafb;border:1px solid var(--edge);border-radius:13px;margin:13px 0;padding:17px 20px}
+.legal-scenario>strong{font-size:13px}
+.legal-scenario p{margin-top:6px}
+.legal-final-cta{padding-top:35px;padding-bottom:75px}
+.security-highlight{display:flex;align-items:flex-start;gap:17px;padding:21px;background:#e8f7ef;border:1px solid #cbebd9;border-radius:16px;margin-bottom:28px}
+.security-highlight strong{display:block;font-size:16px}
+.security-highlight p{margin-top:4px}
+.security-icon{display:grid;place-items:center;border-radius:50%;width:32px;height:32px;flex-shrink:0;background:var(--navy);color:#fff;font-weight:900}
+.policy-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}
+.policy-grid>div{border:1px solid var(--edge);border-radius:12px;padding:17px;background:#fcfefe}
+.policy-grid strong{font-size:12px}
+.policy-grid p{font-size:11px;line-height:1.7}
+.legal-more{background:#edf7f3;padding:19px;border-radius:14px;margin-top:21px}
+.legal-more strong{font-size:13px}
+.legal-more a{display:inline-block;margin-top:12px;font-size:12px}
+@media(max-width:1050px){.footer-layout{grid-template-columns:repeat(2,minmax(0,1fr))!important}.footer-intro{grid-column:1/-1}}
+@media(max-width:790px){.legal-layout{grid-template-columns:1fr;gap:28px}.legal-side{position:static}.trust-mini{align-items:flex-start;flex-direction:column}.trust-mini-links{justify-content:flex-start}.legal-section{padding-top:32px}.legal-hero{padding-bottom:43px}}
+@media(max-width:520px){.footer-layout{grid-template-columns:1fr!important}.legal-content .legal-intro{padding:21px}.legal-intro h2{font-size:23px}.legal-content h2{font-size:20px}.policy-grid{grid-template-columns:1fr}.legal-updated{display:block}.trust-mini-links{gap:13px}}
+
+/* V8 | One consistent E School brand mark across the complete site */
+.brand{gap:9px;align-items:center}
+.brand-mark{width:43px;height:43px;object-fit:contain;border-radius:0;display:block;flex:0 0 43px;background:transparent}
+.brand-name{font-size:21px;font-weight:800;letter-spacing:-.045em;color:#0B2D6B;white-space:nowrap;line-height:1}
+.footer .brand-name{color:#0B2D6B}
+@media(max-width:750px){.brand-mark{width:39px;height:39px;flex-basis:39px}.brand-name{font-size:20px}}

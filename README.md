@@ -1,34 +1,51 @@
-# School Showcase — updated advertising website
+# E School — Website V6
 
-## Run locally
-Extract the entire folder and double-click `index.html` in Chrome, Edge or Firefox. All pages are static; there are no backend requirements.
+Standalone HTML/CSS/JavaScript advertising website with five interactive product demos, monthly pricing calculator and three policy pages.
 
-## Public pages
-- `index.html` — homepage with all five roles (Principal Portal correctly linked)
-- `demos.html` — dedicated interactive demo directory
-- `features.html` — included package scope
-- `how-it-works.html` — Google Form → setup → go live → handover training → support
-- `faq.html` — separate FAQs page
-- `contact.html` — enquiry page
+## Open locally
 
-## Interactive walkthroughs
-- `admin.html` — Principal Portal
-- `student.html` — Student App
-- `parent.html` — Parent App
-- `teacher.html` — Teacher App
-- `portal.html` — Teacher Portal
+Double-click `index.html`. No server required to view this static showcase.
 
-All pages share precisely the same header/footer markup, links and stylesheet. Navigation includes a responsive mobile menu.
+## Pages
 
-## IMPORTANT: Before public advertising
-1. Configure actual contact destinations in `site-config.js` (`contactEmail`, `whatsappNumber`, or `schoolEnquiryFormUrl`). No email, phone or onboarding form link was supplied, so none was invented. The enquiry form currently copies the enquiry text when no email is configured; it does NOT pretend to submit it.
-2. Replace generic School Showcase placeholder branding with the brand name/logo and add an appropriate privacy notice, business identity, and terms for your deployment.
-3. Verify all advertised features against the production installation and legal rights to publish any copied product icons.
-4. The website uses sample data. It is a clickable product simulation, not real school software.
-5. Setup Google Form is provided privately after onboarding. No external form URL was invented.
+- Home — `index.html`
+- Demo directory — `demos.html`
+- Principal Portal demo — `admin.html`
+- Student App — `student.html`
+- Parent App — `parent.html`
+- Teacher App — `teacher.html`
+- Teacher Portal — `portal.html`
+- Features — `features.html`
+- How It Works — `how-it-works.html`
+- Pricing — `pricing.html`
+- FAQ — `faq.html`
+- Contact — `contact.html`
+- Terms of Service — `terms.html`
+- Privacy Policy — `privacy.html`
+- Data Security Policy — `data-security.html`
 
-## Files preserved
-Original `app.js` interactive demo logic and `assets/*.svg` icons are retained. Desktop Principal/Teacher Portal fixed preview sizes are retained. Only the outdated text and front-end navigation/layout were updated.
+## Important launch checklist
 
-## Package scope
-The public pages focus strictly on included features. They do not advertise excluded add-ons.
+1. In `site-config.js`, set the real business email, WhatsApp number and/or valid enquiry form link. The contact form prepares an email or copyable message until configured.
+2. Add the operator's legal name, contact information, and address to the signed agreement/invoice, and review the terms and policies with a local legal professional before presenting them as binding policies. No legal identity or address has been invented.
+3. Verify promised security measures before onboarding real schools: production HTTPS, role-based permissions, backups and *restore tests*, supported software versions, server access, authorized support accounts and incident process. The static demo alone cannot guarantee that the live Laravel deployment is secure.
+4. Confirm the hosting location, providers, backup and deletion/retention arrangements, and any data sharing involved in the deployed service. Tailor privacy/security policies to actual operations.
+5. Confirm and document the refund and settlement process, agreed deployment scope, acceptance criteria, and how monthly billable users are counted in school contracts.
+6. Keep test/demo data fictional; never publish real pupils' or parents' data.
+
+## Branding
+
+The E School graduation-cap + lowercase e mark is implemented consistently on every page (navbar, footer, browser favicon, mobile bookmarks). Original app demos, styles and interactions remain unchanged.
+
+## Excluded extras
+
+No marketing promises were added for school websites, online fee payments, online examinations, staff creation, online homework file submissions or bulk report generation.
+
+
+
+### E School logo (V8)
+
+- `assets/eschool-logo-mark.svg` — approved symbol, transparent SVG used in every header/footer.
+- `favicon.svg`, `favicon-32.png`, `favicon-48.png` — browser tabs.
+- `apple-touch-icon.png`, `icon-192.png` — mobile / bookmark icons.
+- `assets/eschool-logo-original.png` — original approved complete image as a reference.

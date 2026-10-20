@@ -1,5 +1,5 @@
 (function(){
-const config=window.SCHOOL_SHOWCASE_CONFIG||{}; const form=document.getElementById('inquiry-form'); const status=document.getElementById('inquiry-status'); const options=document.getElementById('contact-method');
+const config=window.E_SCHOOL_CONFIG||{}; const form=document.getElementById('inquiry-form'); const status=document.getElementById('inquiry-status'); const options=document.getElementById('contact-method');
 const email=(config.contactEmail||'').trim();const whatsapp=(config.whatsappNumber||'').replace(/\D/g,'');const formUrl=(config.schoolEnquiryFormUrl||'').trim();
 if(!form||!status)return;
 if(options){let nodes=[];if(email)nodes.push('<a href="mailto:'+encodeURIComponent(email)+'">Email our team ↗</a>');if(whatsapp)nodes.push('<a target="_blank" rel="noopener noreferrer" href="https://wa.me/'+whatsapp+'">Message on WhatsApp ↗</a>');if(/^https:\/\//i.test(formUrl))nodes.push('<a target="_blank" rel="noopener noreferrer" href="'+formUrl.replace(/"/g,'&quot;')+'">Open enquiry form ↗</a>');if(nodes.length)options.innerHTML='<strong>Or reach us directly:</strong> '+nodes.join(' · ');else options.textContent='Contact channels have not been configured yet. The form below can prepare a message for you to copy; it does not send anything to a server.';}
