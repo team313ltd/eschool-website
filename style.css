@@ -8,26 +8,6 @@
 @media(max-width:750px){.cards-five{grid-template-columns:repeat(2,minmax(0,1fr))}.cards-five .role-card{min-height:258px;padding:15px}.hero-show-admin{min-height:350px}.hero-dashboard{width:86%}.journey{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-matrix{grid-template-columns:1fr}.feature-group{min-height:auto}.ownership-strip{grid-template-columns:1fr;gap:10px}.admin-grid{display:flex;flex-direction:column}.admin-stage{overflow-x:auto!important;align-items:flex-start!important}.admin-desktop{min-width:630px}.admin-desktop .portal-side{min-width:152px}.admin-desktop .portal-ui{min-height:545px}}
 @media(max-width:450px){.journey{grid-template-columns:1fr}.journey-step{min-height:180px}.cards-five .role-card{min-height:275px}.hero-dashboard{width:89%}.hero-floating.one{top:14px}.hero-floating.two{bottom:14px}}
 
-/* My code */
-.founder-photo {
-    display: block;
-    width: 76px;
-    height: 76px;
-    flex: 0 0 76px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 22px;
-    overflow: hidden;
-}
-
-@media (max-width: 480px) {
-    .founder-photo {
-        width: 62px;
-        height: 62px;
-        flex-basis: 62px;
-        border-radius: 18px;
-    }
-}
 
 /* V3.1 · Stable browser mockups (Principal and Teacher Portal only)
    Keep the outer preview's width/height constant while individual screens vary.
@@ -219,18 +199,3 @@ body[data-role="admin"] .device-desktop .admin-kpis {
 .portal-brand img{display:block;width:23px;height:23px;object-fit:contain;background:#fff;border-radius:5px;flex:0 0 23px}
 
 
-/* Founding team page */
-.team-hero{padding-bottom:42px}.team-hero>p{max-width:760px;color:#748797;font-size:15px;margin-top:20px}
-.team-section{padding-top:48px;background:linear-gradient(180deg,#f8fafb 0%,#f1f6f8 100%)}
-.founding-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
-.founder-card{background:#fff;border:1px solid var(--edge);border-radius:22px;padding:32px;box-shadow:0 12px 34px #17334808;display:flex;flex-direction:column;min-width:0}
-.founder-card-top{display:flex;align-items:center;gap:18px;padding-bottom:23px;border-bottom:1px solid #edf1f4}
-.founder-monogram{width:76px;height:76px;flex:0 0 76px;border-radius:22px;display:grid;place-items:center;background:linear-gradient(145deg,#1e3d6b,#2e7190);color:#fff;font-size:23px;font-weight:800;letter-spacing:-.05em;box-shadow:0 10px 22px #1e3d6b25}
-.founder-monogram-alt{background:linear-gradient(145deg,#278b86,#58c69a);font-size:19px}
-.founder-identity{min-width:0}.founder-role{font-size:10px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:#398d7b}.founder-identity h3{font-size:22px;line-height:1.2;margin:7px 0 8px;color:var(--deep)}
-.founder-link{font-size:11px;font-weight:750;color:var(--navy)}.founder-link:hover{text-decoration:underline}
-.founder-card>p{font-size:13px;line-height:1.85;color:#718391;margin:23px 0 26px}
-.founder-focus{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.founder-focus span{font-size:10px;font-weight:700;color:#416779;background:#eef6f6;border:1px solid #e2eeee;border-radius:30px;padding:8px 11px}
-.team-closing{padding-top:18px;padding-bottom:75px}
-@media(max-width:800px){.founding-grid{grid-template-columns:1fr}.founder-card{padding:25px}.team-hero>p{font-size:14px}}
-@media(max-width:480px){.founder-card-top{align-items:flex-start;gap:13px}.founder-monogram{width:62px;height:62px;flex-basis:62px;border-radius:18px;font-size:20px}.founder-identity h3{font-size:19px}}
