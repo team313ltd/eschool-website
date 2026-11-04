@@ -42,3 +42,9 @@ The supplied SkolSup logo is used in the navbar and footer. The favicon, browser
 2. Review Terms, Privacy and Data Security pages against actual hosting, backup, access-control and retention arrangements.
 3. Keep demo records fictional; never publish real pupils' or parents' data.
 4. Confirm deployment scope, payment conditions, refund settlement and monthly billing rules in each school agreement.
+
+### Founding team
+- `team.html` — founder profiles and LinkedIn links.
+
+### Pricing
+- PKR 20 per student per month, with a PKR 5,000 minimum monthly invoice. No separate teacher charge.

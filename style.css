@@ -8,6 +8,26 @@
 @media(max-width:750px){.cards-five{grid-template-columns:repeat(2,minmax(0,1fr))}.cards-five .role-card{min-height:258px;padding:15px}.hero-show-admin{min-height:350px}.hero-dashboard{width:86%}.journey{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-matrix{grid-template-columns:1fr}.feature-group{min-height:auto}.ownership-strip{grid-template-columns:1fr;gap:10px}.admin-grid{display:flex;flex-direction:column}.admin-stage{overflow-x:auto!important;align-items:flex-start!important}.admin-desktop{min-width:630px}.admin-desktop .portal-side{min-width:152px}.admin-desktop .portal-ui{min-height:545px}}
 @media(max-width:450px){.journey{grid-template-columns:1fr}.journey-step{min-height:180px}.cards-five .role-card{min-height:275px}.hero-dashboard{width:89%}.hero-floating.one{top:14px}.hero-floating.two{bottom:14px}}
 
+/* My code */
+.founder-photo {
+    display: block;
+    width: 76px;
+    height: 76px;
+    flex: 0 0 76px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .founder-photo {
+        width: 62px;
+        height: 62px;
+        flex-basis: 62px;
+        border-radius: 18px;
+    }
+}
 
 /* V3.1 · Stable browser mockups (Principal and Teacher Portal only)
    Keep the outer preview's width/height constant while individual screens vary.
@@ -87,7 +107,7 @@ body[data-role="admin"] .device-desktop .admin-kpis {
 
 
 /* Pricing page: shares the existing site design system */
-.pricing-hero{padding-bottom:48px}.pricing-hero>p{max-width:820px}.price-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-bottom:70px}.rate-card{border:1px solid var(--edge);border-radius:20px;padding:29px;background:#fff;box-shadow:0 8px 22px #17334806;min-width:0}.rate-card-emphasis{background:linear-gradient(135deg,#174967,#1e3d6b);border-color:#1e3d6b;color:#fff}.rate-icon{width:49px;height:49px;display:grid;place-items:center;background:#e9f6f1;border-radius:14px;font-size:24px}.rate-eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:23px 0 13px;color:#6d8592}.rate-amount{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 11px}.rate-amount b{font-size:clamp(26px,2.6vw,36px);letter-spacing:-.04em;white-space:nowrap}.rate-amount span{font-size:12px;color:#77909b}.rate-card>p:last-child{margin-top:12px;font-size:12px;color:#8295a2}.rate-card-emphasis .rate-eyebrow,.rate-card-emphasis .rate-amount span,.rate-card-emphasis>p:last-child{color:#d4e7ed}.rate-card-emphasis .rate-icon{background:#e5f7f0}
+.pricing-hero{padding-bottom:48px}.pricing-hero>p{max-width:820px}.price-summary-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding-bottom:70px;max-width:970px}.rate-card{border:1px solid var(--edge);border-radius:20px;padding:29px;background:#fff;box-shadow:0 8px 22px #17334806;min-width:0}.rate-card-emphasis{background:linear-gradient(135deg,#174967,#1e3d6b);border-color:#1e3d6b;color:#fff}.rate-icon{width:49px;height:49px;display:grid;place-items:center;background:#e9f6f1;border-radius:14px;font-size:24px}.rate-eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:23px 0 13px;color:#6d8592}.rate-amount{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 11px}.rate-amount b{font-size:clamp(26px,2.6vw,36px);letter-spacing:-.04em;white-space:nowrap}.rate-amount span{font-size:12px;color:#77909b}.rate-card>p:last-child{margin-top:12px;font-size:12px;color:#8295a2}.rate-card-emphasis .rate-eyebrow,.rate-card-emphasis .rate-amount span,.rate-card-emphasis>p:last-child{color:#d4e7ed}.rate-card-emphasis .rate-icon{background:#e5f7f0}
 .price-calculator{display:grid;grid-template-columns:1.04fr .96fr;gap:0;border-radius:24px;background:#fff;border:1px solid var(--edge);overflow:hidden;box-shadow:0 16px 50px #19405510}.calculator-inputs{padding:40px 43px}.calculator-topline{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#8aa2ab;font-size:10px;font-weight:800;letter-spacing:.12em}.calculator-topline span:last-child{color:#288f6e}.calculator-inputs h3{font-size:25px;margin-top:22px}.calculator-inputs>p:not(.calc-disclaimer){font-size:13px;color:#8595a1;margin-top:9px;max-width:420px}.calc-field{margin-top:25px}.calc-field label{display:block;font-size:13px;font-weight:800;margin-bottom:9px}.calc-field small{display:block;color:#8296a4;font-size:11px;margin-top:8px}.calc-input-wrap{position:relative}.calc-input-wrap span{position:absolute;top:50%;left:17px;transform:translateY(-50%);font-size:20px;pointer-events:none}.calc-input-wrap input{width:100%;border:1px solid #d7e5e8;background:#fcfefe;border-radius:12px;padding:14px 18px 14px 51px;color:var(--ink);font-family:inherit;font-size:19px;font-weight:700;line-height:1.35;outline:none;appearance:textfield}.calc-input-wrap input:focus{border-color:#53b69f;box-shadow:0 0 0 3px #dcf5eb}.calc-presets{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:25px}.calc-presets>span{width:100%;font-size:11px;color:#7c91a0;font-weight:700;margin-bottom:3px}.calc-preset{border-radius:30px;border:1px solid #dbe8ed;background:#f6fafb;padding:9px 13px;color:#557385;font-size:11px;font-weight:700}.calc-preset:hover,.calc-preset:focus-visible{border-color:#69b6a6;background:#effbf4;color:#155b4b}.calc-disclaimer{font-size:11px;color:#8196a4;margin-top:24px;line-height:1.75}
 .calculator-output{background:linear-gradient(150deg,#164561,#10334a);color:white;padding:43px 42px;display:flex;flex-direction:column;justify-content:center;min-width:0}.calc-output-tag{color:#9ce4c0;font-size:11px;font-weight:800;letter-spacing:.13em}.calc-total{font-size:clamp(38px,4.2vw,56px);font-weight:800;letter-spacing:-.065em;margin-top:19px;overflow-wrap:anywhere}.calc-caption{font-size:12px;color:#b4cfd9;margin-top:0}.calc-breakdown{margin-top:31px;display:grid;gap:14px}.calc-breakdown>div{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:#cadbe4}.calc-breakdown strong{font-size:13px;color:#fff;white-space:nowrap}.calc-breakdown .calc-min{color:#b8eacb}.calc-min strong{color:#b8eacb}.calc-divider{height:1px;background:#ffffff25;margin:26px 0}.calc-split-heading{font-size:11px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:#d4e7ee}.calc-payments{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:12px}.calc-payments>div{border:1px solid #ffffff24;padding:15px;border-radius:12px}.calc-payments small{display:block;font-size:10px;color:#b4d0dd;line-height:1.5}.calc-payments small span{color:#b2eccb}.calc-payments strong{display:block;font-size:20px;letter-spacing:-.03em;margin-top:10px}.calculator-output .calc-cta{background:var(--mint);color:#10394e;margin-top:31px}.calculator-output .calc-cta:hover{background:#87dfb7}.price-calculation-note{margin-top:17px;font-size:12px;color:#78909e;line-height:1.7}.price-calculation-note strong{color:var(--ink)}.payment-section{background:#fff}.payment-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.payment-step{border:1px solid var(--edge);background:#f9fbfc;border-radius:19px;padding:27px}.pay-number{font-size:10px;color:#338b6b;letter-spacing:.1em;font-weight:850}.payment-icon{width:45px;height:45px;background:#e0f5ea;border-radius:12px;display:grid;place-items:center;margin:24px 0 15px;font-size:21px;font-weight:700;color:#237758}.payment-step h3{font-size:20px}.payment-step p{font-size:12px;color:#7a8c98;margin-top:12px}.payment-step p strong{color:#294b5a}.price-includes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:28px}.price-includes a{background:#fff;border:1px solid var(--edge);border-radius:15px;padding:20px;display:flex;align-items:start;flex-direction:column;gap:12px;font-size:18px;min-width:0;transition:transform .2s}.price-includes a:hover{transform:translateY(-3px);box-shadow:0 10px 23px #153b4a0d}.price-includes span{font-weight:800;font-size:13px;color:var(--ink)}.price-includes b{font-size:11px;color:var(--navy);margin-top:auto}.scope-note a{color:var(--navy);font-weight:700;text-decoration:underline}
 @media(max-width:1100px){.price-includes{grid-template-columns:repeat(3,minmax(0,1fr))}.rate-amount b{font-size:27px}}
@@ -197,3 +217,20 @@ body[data-role="admin"] .device-desktop .admin-kpis {
 .social-icon[aria-label*="WhatsApp"] svg path+path{fill:currentColor;stroke:none}
 .portal-side strong.portal-brand{display:flex;align-items:center;gap:7px;padding:7px;margin-bottom:14px;font-size:13px;line-height:1.1}
 .portal-brand img{display:block;width:23px;height:23px;object-fit:contain;background:#fff;border-radius:5px;flex:0 0 23px}
+
+
+/* Founding team page */
+.team-hero{padding-bottom:42px}.team-hero>p{max-width:760px;color:#748797;font-size:15px;margin-top:20px}
+.team-section{padding-top:48px;background:linear-gradient(180deg,#f8fafb 0%,#f1f6f8 100%)}
+.founding-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+.founder-card{background:#fff;border:1px solid var(--edge);border-radius:22px;padding:32px;box-shadow:0 12px 34px #17334808;display:flex;flex-direction:column;min-width:0}
+.founder-card-top{display:flex;align-items:center;gap:18px;padding-bottom:23px;border-bottom:1px solid #edf1f4}
+.founder-monogram{width:76px;height:76px;flex:0 0 76px;border-radius:22px;display:grid;place-items:center;background:linear-gradient(145deg,#1e3d6b,#2e7190);color:#fff;font-size:23px;font-weight:800;letter-spacing:-.05em;box-shadow:0 10px 22px #1e3d6b25}
+.founder-monogram-alt{background:linear-gradient(145deg,#278b86,#58c69a);font-size:19px}
+.founder-identity{min-width:0}.founder-role{font-size:10px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:#398d7b}.founder-identity h3{font-size:22px;line-height:1.2;margin:7px 0 8px;color:var(--deep)}
+.founder-link{font-size:11px;font-weight:750;color:var(--navy)}.founder-link:hover{text-decoration:underline}
+.founder-card>p{font-size:13px;line-height:1.85;color:#718391;margin:23px 0 26px}
+.founder-focus{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.founder-focus span{font-size:10px;font-weight:700;color:#416779;background:#eef6f6;border:1px solid #e2eeee;border-radius:30px;padding:8px 11px}
+.team-closing{padding-top:18px;padding-bottom:75px}
+@media(max-width:800px){.founding-grid{grid-template-columns:1fr}.founder-card{padding:25px}.team-hero>p{font-size:14px}}
+@media(max-width:480px){.founder-card-top{align-items:flex-start;gap:13px}.founder-monogram{width:62px;height:62px;flex-basis:62px;border-radius:18px;font-size:20px}.founder-identity h3{font-size:19px}}
