@@ -1,7 +1,8 @@
-// Before publishing, add at least one real contact method here.
-// Leave blank if not configured; the inquiry form will offer copy-to-clipboard instead of pretending to submit.
-window.E_SCHOOL_CONFIG = {
-  contactEmail: '',       // e.g. hello@yourbrand.com
-  whatsappNumber: '',    // international digits only, e.g. 923001234567
-  schoolEnquiryFormUrl: '' // optional external form / CRM link (public URL)
+// SkolSup public contact details used by the shared site interactions.
+window.SKOLSUP_CONFIG = {
+  whatsappNumber: '923412230390',
+  whatsappDisplay: '+92 341 2230390',
+  whatsappMessage: 'Hello SkolSup, I would like to know more about your school management system.',
+  instagramUrl: 'https://www.instagram.com/skols_up',
+  facebookUrl: 'https://www.facebook.com/skolsup'
 };
